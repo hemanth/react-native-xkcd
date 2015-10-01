@@ -1,0 +1,29 @@
+{
+  "name": "react-native-xkcd",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "react-native": "^0.11.4"
+  },
+  "description": "Loads a random [XKCD](http://xkcd.com/) comic with caption.",
+  "main": "index.android.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemanth/react-native-xkcd.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "xkcd"
+  ],
+  "author": "hemanth.hm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hemanth/react-native-xkcd/issues"
+  },
+  "homepage": "https://github.com/hemanth/react-native-xkcd#readme"
+}
