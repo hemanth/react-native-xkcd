@@ -16,7 +16,7 @@ var XKCD = require('react-native-xkcd');
 
 __Will result in something like:__
 
-![xkcd](./xkcd.jpg)
+![xkcd](./xkcd.png)
 
 
 __TODO:__
