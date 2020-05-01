@@ -2,10 +2,13 @@
   "name": "react-native-xkcd",
   "version": "0.0.1",
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "node_modules/react-native/packager/packager.sh",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "react-native": "^0.39.1"
+    "react-native": "^0.39.1",
+    "snyk": "^1.316.1"
   },
   "description": "Loads a random [XKCD](http://xkcd.com/) comic with caption.",
   "main": "index.android.js",
@@ -24,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/hemanth/react-native-xkcd/issues"
   },
-  "homepage": "https://github.com/hemanth/react-native-xkcd#readme"
+  "homepage": "https://github.com/hemanth/react-native-xkcd#readme",
+  "snyk": true
 }
