@@ -1,11 +1,12 @@
 {
   "name": "react-native-xkcd",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "node_modules/react-native/packager/packager.sh",
+    "test": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8'))\""
   },
   "dependencies": {
-    "react-native": "^0.39.1"
+    "react-native": "^0.87.1"
   },
   "description": "Loads a random [XKCD](http://xkcd.com/) comic with caption.",
   "main": "index.android.js",
